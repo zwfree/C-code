@@ -1,0 +1,40 @@
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+void printCalendar(int year, int month);
+void printCal_font(int year, int month);
+void printCal_content(int year, int month);
+int thisYM_days(int year, int month);
+int thisYM_star(int year,int month);
+
+int main()
+{
+	int year, month;
+	cout << "Input this year: " << endl;
+	cin >> year;
+	cout << "Input this month: " << endl;
+	cin >> month;
+	printCalendar(int year,int month);
+    return 0;
+}
+
+void printCalendar(int year, int month)
+{
+	printCal_font(int year, int month);
+	//printCal_content(int year, int month);
+}
+
+void printCal_font(int year, int month)
+{
+    string week[7]={"Sun","Mon","Tue","Wed","Thu","Fri","Sat"};
+    for(int i=1;i<=21;i++)
+        cout<<" ";
+    cout<<month<<" "<<year<<endl;
+
+    for(int j=0;j<7;j++)
+    {
+        cout<<" "<<week[j]<<" ";
+    }
+}

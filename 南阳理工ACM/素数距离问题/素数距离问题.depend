@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1463063207 source:c:\c++源代码\南阳理工acm\素数距离问题\main.cpp
+	<iostream>
+	<math.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1458746455 source:c:\c++Ô´´úÂë\c++primer\29.6(1)\main.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<vector>
+

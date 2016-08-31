@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1457267719 source:c:\c++源代码\21.4.4\linked.cpp
+	<iostream>
+	"linked.h"
+
+1457269810 c:\c++源代码\21.4.4\linked.h
+
+1457268665 source:c:\c++源代码\21.4.4\linked2.cpp
+	<iostream>
+	"linked.h"
+
+1457275614 source:c:\c++源代码\21.4.4\main.cpp
+	<iostream>
+	"linked.h"
+
